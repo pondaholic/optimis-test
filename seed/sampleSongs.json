@@ -1,0 +1,37 @@
+[
+	{
+		"song": "When Doves Cry",
+		"lyrics": "How can you just leave me standing?",
+		"album": "Purple Rain"
+	},
+	{
+		"song": "Purple Rain",
+		"lyrics": "Laughing in the purple rain",
+		"album": "Purple Rain"
+	},
+	{
+		"song": "New Kid in Town",
+		"lyrics": "There's talk on the street; it sounds so familiar",
+		"album": "Hotel California"
+	},
+	{
+		"song": "Hotel California",
+		"lyrics": "On a dark desert highway",
+		"album": "Hotel California"
+	},
+	{
+		"song": "The Beautiful Ones",
+		"lyrics": "Baby, baby, baby",
+		"album": "Purple Rain"
+	},
+	{
+		"song": "Dani California",
+		"lyrics": "California, rest in peace",
+		"album": "Stadium Arcadium"
+	},
+	{
+		"song": "Charlie",
+		"lyrics": "So much more than Charlie's wakin' me",
+		"album": "Stadium Arcadium"
+	}
+]

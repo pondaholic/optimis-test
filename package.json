@@ -1,0 +1,16 @@
+{
+	"name": "optimis",
+	"version": "1.0.0",
+	"description": "RESTful API for Take Home Assignment",
+	"main": "server.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "shelly",
+	"license": "MIT",
+	"dependencies": {
+		"express": "^4.16.4",
+		"mongoose": "^5.4.0",
+		"morgan": "^1.9.1"
+	}
+}
