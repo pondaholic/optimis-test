@@ -1,15 +1,13 @@
 const express = require('express');
 const router = express.Router();
 
-const Album = require('../models/albums');
+const Song = require('../models/songs');
 
 router.get('/', (req, res, next) => {
-	// console.info(req.query);
-	const { album } = req.query;
-	const albumName = { album };
-	// console.info(albumName.album);
+	const { song } = req.query;
+	const songName = { song };
 
-	Album.find({ name: albumName.album })
+	Song.find({ song: songName.song })
 		.then(results => {
 			res.json(results);
 		})
