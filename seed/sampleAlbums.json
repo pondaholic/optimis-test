@@ -2,19 +2,16 @@
 	{
 		"name": "Hotel California",
 		"year": 1976,
-		"artist": "Eagles",
-		"songs": ["New Kid in Town", "Hotel California"]
+		"artist": "Eagles"
 	},
 	{
 		"name": "Purple Rain",
 		"year": 1984,
-		"artist": "Prince",
-		"songs": ["Purple Rain", "When Doves Cry", "The Beautiful Ones"]
+		"artist": "Prince"
 	},
 	{
 		"name": "Stadium Arcadium",
 		"year": 2006,
-		"artist": "Red Hot Chili Peppers",
-		"songs": ["Charlie", "Dani California"]
+		"artist": "Red Hot Chili Peppers"
 	}
 ]

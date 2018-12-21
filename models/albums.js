@@ -3,8 +3,7 @@ const mongoose = require('mongoose');
 const albumSchema = new mongoose.Schema({
 	name: { type: String, required: true, unique: true },
 	year: { type: Number },
-	artist: { type: String },
-	songs: { type: Array, ref: 'Songs' }
+	artist: { type: String }
 });
 
 albumSchema.set('autoIndex', false);

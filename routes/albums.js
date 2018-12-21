@@ -4,15 +4,20 @@ const router = express.Router();
 const Album = require('../models/albums');
 
 router.get('/', (req, res, next) => {
-	// console.info(req.query);
-	const { album } = req.query;
-	const albumName = { album };
-	// console.info(albumName.album);
-
-	Album.find({ name: albumName.album })
+	Album.find({})
+		.sort({ name: 1 })
 		.then(results => {
 			res.json(results);
 		})
+		.catch(err => next(err));
+});
+
+router.get('/:album', (req, res, next) => {
+	// console.info(req.params);
+	const albumName = req.params;
+
+	Album.find({ name: albumName.album })
+		.then(results => res.json(results))
 		.catch(err => next(err));
 });
 
